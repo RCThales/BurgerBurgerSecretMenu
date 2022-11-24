@@ -1,0 +1,52 @@
+.burger {
+    transition: all ease 0.2s;
+
+    border-radius: 10px;
+    border-bottom: 1px solid rgba(37, 37, 37,0.2);
+    padding: 10px;
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+.burger img{
+    width: 13rem;
+    transition: all ease 0.2s;
+    animation: tada;
+    animation-duration: 1.5s;
+}
+
+.burger img:hover {
+    width: 15rem;
+}
+
+.burger h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 2rem;
+    max-width: 90vw;
+    animation: slideInDown 1s;
+    line-height: 40px;
+}
+.burger h3 {
+    font-family: 'Alata', sans-serif;
+    font-size: 2rem;
+    max-width: 90vw;
+    animation: slideInDown 1s;
+    line-height: 40px;
+}
+
+.burger p{
+    font-family: 'Tillana', cursive;
+    font-size: 1.5rem;
+    animation: slideInDown 1.5s;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .burger h2 {
+            font-size: 1.7rem;
+        }
+    
+        .burger p {
+            font-size: 1.4rem;
+        }
+}
